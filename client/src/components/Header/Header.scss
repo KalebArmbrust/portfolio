@@ -1,0 +1,25 @@
+@import '../../styles/globalStyles';
+
+.header {
+    display: flex;
+    background-color: $blue;
+    &-left {
+        margin-right: auto;
+        margin-left: 15px;
+        &__title {
+            color: $white;
+            font-family: $font;
+        }
+    }
+    &-right {
+        display: flex;
+        width: 20vw;
+        justify-content: space-evenly;
+        margin-right: 15px;
+        margin-top: 15px;
+        &__text {
+            color: $white;
+            font-family: $font;
+        }
+    }
+}

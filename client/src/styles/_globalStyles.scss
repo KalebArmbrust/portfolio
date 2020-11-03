@@ -1,0 +1,38 @@
+////////////////////////////////Fonts///////////////////
+
+@font-face {
+    font-family: 'Marker';
+    src: url('../assets/fonts/PermanentMarker-Regular.ttf') format('truetype');
+}
+
+///////////////////////////////////////////Mixins////////////////////////////////////
+
+@mixin mobile {
+    @media screen and (min-width: $mobile-breakpoint) {
+      @content;
+    }
+  }
+
+@mixin tablet {
+    @media screen and (min-width: $tablet-breakpoint) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media screen and (min-width: $desktop-breakpoint) {
+      @content;
+    }
+  }
+
+/////////////////////////////////////Breakpoints/////////////////////////////////////
+$mobile-breakpoint: 320px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1200px;
+
+/////////////////////////////////////Colors/////////////////////////////////////////
+$blue: #0e2433;
+$white: #fff;
+
+/////////////////////////////////////Fonts/////////////////////////////////////////
+$font: 'Marker';
