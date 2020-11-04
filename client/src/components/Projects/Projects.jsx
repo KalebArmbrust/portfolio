@@ -11,7 +11,7 @@ function Projects() {
             <div className="projects-bottom">
                 <h3 className="projects-bottom__title">Chatto</h3>
                 <img className="projects-bottom__image" src={Chatto} alt="Chatto"/>
-                <p className="projects-bottom__text"></p>
+                <p className="projects-bottom__text">A chat application that pairs English and Japanese speakers together to practice each other's language.</p>
             </div>
         </div>
     )

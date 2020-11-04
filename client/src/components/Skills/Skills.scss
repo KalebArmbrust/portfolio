@@ -1,0 +1,33 @@
+@import '../../styles/globalStyles';
+
+.skills {
+    margin-bottom: 1rem;
+    &-top {
+        margin-left: 5vw;
+        margin-bottom: 2rem;
+        &__title {
+            text-align: left;
+        }
+    }
+    &-bottom {
+        &__image {
+            width: 7.5vw;
+            margin-right: 25px;
+            margin-bottom: 1.5rem;
+        }
+        &__imagehtml {
+            width: 10.5vw;
+            margin-bottom: 1.5rem;
+        }
+        &__imagemid {
+            width: 10vw;
+            margin-bottom: 2rem;
+            margin-right: 25px;
+        }
+        &__imagesmall {
+            width: 10vw;
+            margin-right: 25px;
+            margin-bottom: 1rem;
+        }
+    }
+}
