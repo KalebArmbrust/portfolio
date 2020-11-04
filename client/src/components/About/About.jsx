@@ -9,7 +9,7 @@ function About() {
             </div>
             <div className="about-right">
                 <p className="about-right__text">
-                
+                    
                 </p>
             </div>
         </div>
