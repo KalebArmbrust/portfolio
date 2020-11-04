@@ -10,6 +10,8 @@
     &-bottom {
         &__title {
             font-size: $titleSmall;
+            color: black;
+            text-decoration: underline black;
         }
         &__image {
             object-fit: contain;
