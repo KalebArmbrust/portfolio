@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.scss'
+import './Header.scss';
 
 function Header() {
     return (
@@ -9,8 +9,8 @@ function Header() {
             </div>
             <nav className="header-right">
                 <h3 className="header-right__text">about</h3>
-                <h3 className="header-right__text">skills</h3>
                 <h3 className="header-right__text">projects</h3>
+                <h3 className="header-right__text">skills</h3>
             </nav>
         </div>
     )
