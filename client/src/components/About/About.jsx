@@ -1,12 +1,12 @@
 import React from 'react';
 import './About.scss';
-import Kaleb from '../../assets/images/kaleb.jpeg';
+import Koi from '../../assets/images/koi.jpg';
 
 function About() {
     return (
         <div className="about">
             <div className="about-left">
-                <img className="about-left__image" src={Kaleb} alt="Kaleb Armbrust"/>
+                <img className="about-left__image" src={Koi} alt="Kaleb Armbrust"/>
             </div>
             <div className="about-right">
                 <p className="about-right__text">

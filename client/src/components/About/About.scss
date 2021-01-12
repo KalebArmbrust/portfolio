@@ -1,13 +1,9 @@
 @import '../../styles/globalStyles';
 
 .about {
-    display: flex;
-    margin-top: 25px;
     &-left {
-        margin-left: 5vw;
         &__image {
-             width: 25vw;
-             border-radius: 3px;
+             width: 100vw;
         }
     }
     &-right {

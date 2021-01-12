@@ -2,21 +2,13 @@
 
 .header {
     display: flex;
-    background-color: $blue;
-    &-left {
-        margin-right: auto;
-        margin-left: 5vw;
-        &__title {
-            color: $white;
-            font-family: $font;
-        }
-    }
+    // background-color: $blue;
     &-right {
         display: flex;
         width: 20vw;
         justify-content: space-evenly;
-        margin-right: 15px;
-        margin-top: 15px;
+        margin-left: auto;
+        margin-top: 5px;
         &__text {
             color: $white;
             font-family: $font;
