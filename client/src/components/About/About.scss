@@ -2,17 +2,18 @@
 
 .about {
     &-left {
-        &__image {
-             width: 100vw;
-        }
-    }
-    &-right {
-        width: 70vw;
-        margin-left: 1vw;
-        margin-right: 15px;
-        margin-top: 20px;
+        width: 100vw;
+             background-image: url('../../assets/images/koi.jpg');
+             background-size: contain;
+             height: 55rem;
         &__text {
-            font-size: 20px;
+            display: flex;
+            margin-top: 0;
+            color: white;
+            font-size: 40px;
+        }
+        &__hover:hover {
+            display: none;
         }
     }
 }
