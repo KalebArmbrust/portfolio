@@ -7,12 +7,52 @@
     <meta
       name="Kaleb Armbrust Portfolio"
       content="My Portfolio"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Kaleb Armbrust</title>
   </head>
   <body>
-    <div id="root"></div>
+    <!-- <div id="root"></div> -->
+     <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">  
+      <a class="navbar-brand" href="#">Home</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse"id="navbarSupportedContent"><ul class="navbar-nav mr-4">
+      <li class="nav-item">
+          <a class="nav-link"data-value="about" href="#">About</a></li>  
+     <li class="nav-item">
+         <a class="nav-link"data-value="portfolio"href="#">Portfolio</a>    
+      </li>
+      <li class="nav-item"> 
+         <!-- <a class="nav-link"data-value="blog" href="#">Blog</a></li>    -->
+     <li class="nav-item">  
+        <!-- <a class="nav-link"data-value="team" href="#">Team</a></li>   -->
+     <li class="nav-item"> 
+      <a class="nav-link"data-value="contact" href="#">Contact</a></li> 
+     </ul> 
+     </div></nav>
+     <!--Header-->
+     <header class="header">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="description">
+          <h1> Hello World</h1>
+           <p>My name is Kaleb Armbrust. I am a new dad, an adventure lover, and a recent
+            bootcamp graduate from BrainStation's Web Development Program where I spent 3
+            months learning Html, Css, Javascript, Sass, React, Node and more. I have a degree
+            in Business Management and experience in different fields like construction, medical,
+            clothing, and freelance copywriting. I am now moving into web development and
+            looking for a fun and creative place to work as a developer.
+          </p>   
+        <!-- <button class="btn btn-outline-secondary btn-lg">See more</button>   -->
+       </div>
+      </div>
+    </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type="text/javascript" src='js/main.js'></script>
   </body>
 </html>
