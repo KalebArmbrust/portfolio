@@ -24,12 +24,12 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 100vh;
    }
 
 .overlay{
     position: absolute;
-    min-height: 1000px;
+    min-height: 100vh;
     min-width: 100%;
     left: 0;
     top: 0;
@@ -50,8 +50,8 @@
 .description p{
     color:#666;
     font-size: 20px;
-    width: 50%;
-    line-height: 1.5;
+    width: 100%;
+    line-height: 1;
     }
 
 .description button{
@@ -59,3 +59,18 @@
     background:#d84315;
     color:#fff;
     }
+
+    .about{
+        margin: 4em 0;
+        padding: 1em;
+        position: relative;
+       }
+       .about h3{
+        color:#F97300;
+        padding-top: 7rem;
+       }
+       .about img{
+        height: 100%;
+           width: 100%;
+           border-radius: 70%;
+       }

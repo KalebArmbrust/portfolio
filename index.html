@@ -16,42 +16,57 @@
   <body>
     <!-- <div id="root"></div> -->
      <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark">  
-      <a class="navbar-brand" href="#">Home</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
-      <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse"id="navbarSupportedContent"><ul class="navbar-nav mr-4">
-      <li class="nav-item">
-          <a class="nav-link"data-value="about" href="#">About</a></li>  
-     <li class="nav-item">
-         <a class="nav-link"data-value="portfolio"href="#">Portfolio</a>    
-      </li>
-      <li class="nav-item"> 
-         <!-- <a class="nav-link"data-value="blog" href="#">Blog</a></li>    -->
-     <li class="nav-item">  
-        <!-- <a class="nav-link"data-value="team" href="#">Team</a></li>   -->
-     <li class="nav-item"> 
-      <a class="nav-link"data-value="contact" href="#">Contact</a></li> 
-     </ul> 
-     </div></nav>
+     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand home" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Explore
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Projects</a></li>
+                <li><a class="dropdown-item" href="#">Skills</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
      <!--Header-->
      <header class="header">
       <div class="overlay"></div>
       <div class="container">
         <div class="description">
-          <h1> Hello World</h1>
-           <p>My name is Kaleb Armbrust. I am a new dad, an adventure lover, and a recent
-            bootcamp graduate from BrainStation's Web Development Program where I spent 3
-            months learning Html, Css, Javascript, Sass, React, Node and more. I have a degree
-            in Business Management and experience in different fields like construction, medical,
-            clothing, and freelance copywriting. I am now moving into web development and
-            looking for a fun and creative place to work as a developer.
-          </p>   
+          <h1> Kaleb Armbrust</h1>
+          <p>A developer who likes the outdoors</p>
         <!-- <button class="btn btn-outline-secondary btn-lg">See more</button>   -->
        </div>
       </div>
     </header>
+    <section>
+      <div class="about row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+         <img src="/images/Kaleb.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 desc">
+         <h3>Kaleb Armbrust</h3>
+         <p>My name is Kaleb Armbrust. I am a new dad, an adventure lover, and a recent
+          bootcamp graduate from BrainStation's Web Development Program where I spent 3
+          months learning Html, Css, Javascript, Sass, React, Node and more. I have a degree
+          in Business Management and experience in different fields like construction, medical,
+          clothing, and freelance copywriting. I am now moving into web development and
+          looking for a fun and creative place to work as a developer.
+        </p>   
+        </div>
+       </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script type="text/javascript" src='js/main.js'></script>
   </body>
