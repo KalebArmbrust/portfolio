@@ -103,19 +103,3 @@
    #orange img:first-child:hover {
     border: 2px solid #d84315;
   }
-
-.chatto {
-      background-image: url('../images/chatto.png');
-  }
-
-.band {
-    background-image: url('../images/band.jpg');
-}
-
-.travel {
-    background-image: url('../images/travel.jpg');
-}
-
-.coffee {
-    background-image: url('../images/coffee.jpg');
-}
