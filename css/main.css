@@ -60,15 +60,15 @@
     margin: 4em 0;
     padding: 1em;
     position: relative;
+    margin-bottom: 6rem;
     }
     .about h3{
-    color:#F97300;
+    color:#d84315;
     padding-top: 2rem;
     }
     .about img{
     height: 100%;
         width: 100%;
-        border-radius: 2%;
     }
 
 .info {margin-bottom: 30px;}
@@ -80,4 +80,26 @@
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
+    border-radius: 0;
+  }
+
+  /*Portfolio*/
+.portfolio{
+    margin: 4em 0;
+    position: relative;
+    margin-bottom: 1rem;
+   }
+   .portfolio h1{
+    color:#d84315;
+    margin: 2em; 
+    margin-bottom: 1rem;
+   }
+   .portfolio img{
+     height: 15rem;
+     width: 100%;
+     margin: 1em;
+   }
+
+   #orange img:first-child:hover {
+    border: 2px solid #d84315;
   }

@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
     <title>Kaleb Armbrust</title>
   </head>
   <body>
@@ -24,10 +25,9 @@
                 Explore
               </a>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Top</a></li>
-                <li><a class="dropdown-item" href="#">About</a></li>
-                <li><a class="dropdown-item" href="#">Projects</a></li>
-                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#header">Top</a></li>
+                <li><a class="dropdown-item" href="#about">About</a></li>
+                <li><a class="dropdown-item" href="#projects">Projects</a></li>
               </ul>
             </li>
           </ul>
@@ -35,7 +35,7 @@
       </div>
     </nav>
      <!--Header-->
-     <header class="header">
+     <header class="header" id="header">
       <!-- <div class="overlay"></div> -->
       <div class="container">
         <div class="description">
@@ -45,7 +45,7 @@
        </div>
       </div>
     </header>
-    <section>
+    <section id="about">
       <div class="about row">
         <div class="col-lg-4 col-md-4 col-sm-12">
          <img src="/images/Kaleb.jpg" class="img-fluid">
@@ -60,11 +60,30 @@
         </p>
         <h5>Contact</h5>
         <p>Phone: 916-801-9509<br>Email: kalebarmbrust@gmail.com<br>Linkedin: www.linkedin.com/in/kalebarmbrust</p>
-        <a href="/images/Kaleb_Armbrust_Resume.pdf" download="Kaleb_Armbrust_Resume"><button class="btn"><i class="fa fa-download"></i>Resume</button></a>
-        <!-- <a href="/images/Kaleb_Armbrust_Resume.pdf" download="Kaleb_Armbrust_Resume">Resume</a> -->
+        <a href="/images/Kaleb_Armbrust_Resume.pdf" download="Kaleb_Armbrust_Resume"><button class="btn">Resume</button></a>
         </div>
        </div>
     </section>
+    <!-- portfolio -->
+<section id="projects">
+  <div class="portfolio">
+      <h1 class="text-center">Portfolio</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12" id="orange">
+            <a href="/images/Chatto.mp4" download="/images/Chatto.mp4"><img src="/images/chatto.png" class="img-fluid"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/images/band.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/images/travel.jpg" class="img-fluid">
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script type="text/javascript" src='js/main.js'></script>
   </body>
