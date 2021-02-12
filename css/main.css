@@ -5,10 +5,6 @@
 
 .nav-link{ margin-right: 1em !important;}
 
-.nav-link:hover{ background: #f4f4f4; color: #d84315; }
-
-.navbar-collapse{ justify-content: flex-end;}
-
 .navbar-toggler{  background:#fff !important;}
 
 .fixed-top { position: fixed;}
@@ -38,7 +34,7 @@
 
 .description{
     position: absolute;
-    top: 30%;
+    top: 20%;
     margin: auto;
     padding: 2em;
     }
@@ -60,17 +56,28 @@
     color:#fff;
     }
 
-    .about{
-        margin: 4em 0;
-        padding: 1em;
-        position: relative;
-       }
-       .about h3{
-        color:#F97300;
-        padding-top: 7rem;
-       }
-       .about img{
-        height: 100%;
-           width: 100%;
-           border-radius: 70%;
-       }
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+    }
+    .about h3{
+    color:#F97300;
+    padding-top: 2rem;
+    }
+    .about img{
+    height: 100%;
+        width: 100%;
+        border-radius: 2%;
+    }
+
+.info {margin-bottom: 30px;}
+
+.btn {
+    background-color: #d84315;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
