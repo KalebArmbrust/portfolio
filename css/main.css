@@ -103,3 +103,7 @@
    #orange img:first-child:hover {
     border: 2px solid #d84315;
   }
+
+  .new-img:hover {
+      background-image: url("https://kalebarmbrust.github.io/portfolio/images/atlas2.png");
+  }
